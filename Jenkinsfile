@@ -7,18 +7,14 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stages {
-        stage('Good_Morning') {
+        stage('commit') {
             steps {
-                echo 'Good Morning'
+                echo 'Hello commit'
             }
-        }
-        stages {
-        stage('Text') {
+        }stage('run') {
             steps {
-                echo 'Nature is so beautiful!'
+                echo 'Hello run'
             }
         }
     }
 }
-
