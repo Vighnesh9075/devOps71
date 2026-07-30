@@ -11,7 +11,8 @@ pipeline {
             steps {
                 echo 'Hello commit'
             }
-        }stage('run') {
+        }
+        stage('run') {
             steps {
                 echo 'Hello run'
             }
