@@ -8,8 +8,8 @@ pipeline {
             }
         }
         stage('commit') {
-            steps {
-                echo 'Hello commit';
+            steps {{
+                echo 'Hello commit'
             }
         }
         stage('run') {
