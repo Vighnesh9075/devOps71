@@ -7,8 +7,8 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('commit') {
-            steps {{
+        stage('clone') {
+            steps {
                 echo 'Hello commit'
             }
         }
