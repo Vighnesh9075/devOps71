@@ -14,7 +14,7 @@ pipeline {
         }
         stage('run') {
             steps {
-                echo 'Hello run'
+                 'Hello run'
             }
         }
     }
