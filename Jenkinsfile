@@ -9,7 +9,7 @@ pipeline {
         }
         stage('commit') {
             steps {
-                echo 'Hello commit'
+                echo 'Hello commit';
             }
         }
         stage('run') {
